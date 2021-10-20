@@ -156,7 +156,8 @@ while (incomeAmount >= 0):
 
     # Calculate the diffrence percentage
     differencePercent = 0
-    differencePercent = (difference/totalTax2017) * 100
+    if (totalTax2017 != 0):
+     differencePercent = (difference/totalTax2017) * 100
 
     if (differencePercent < 0):
         differencePercent = differencePercent * -1
