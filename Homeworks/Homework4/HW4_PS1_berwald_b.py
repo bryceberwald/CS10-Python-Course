@@ -1,4 +1,4 @@
-# Homework 3
+# Homework 4
 # Program Set 1
 # Student Name: Bryce Berwald
 # Student ID#: 1212962
@@ -123,6 +123,9 @@ def evenToFront(data : list)->list:
 
     # Return updated list.
     return newList
+
+
+    
 
 
 # Function for Part G.

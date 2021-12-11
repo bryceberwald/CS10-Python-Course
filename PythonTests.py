@@ -1,7 +1,15 @@
-i = 1
+ONE_TEN = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 
-while i < 10:
-    print(i, end = " ")
-    i = i + 2
-    if i == 5:
-        i = 9
+data = ONE_TEN
+
+createdList = []
+
+for i in range(0, len(data), 1):
+    if data[i] % 2 == 0:
+        createdList.append(data[i])
+
+for i in range(0, len(data), 1):
+    if data[i] % 2 != 0:
+        createdList.append(data[i])
+
+print(createdList)
